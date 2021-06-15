@@ -17,7 +17,7 @@ def sendMail(email, subject, content):
     s.ehlo()
     s.starttls()
     s.ehlo()
-    s.login("motizaurelian@gmail.com", "juucwfowdgkghjjp")
+    s.login("", "")
 
     s.sendmail(msg['From'], email, msg.as_string())
     s.quit()
